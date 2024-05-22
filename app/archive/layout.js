@@ -1,4 +1,5 @@
 export default function ArchiveLayout({ archive, latest }) {
+  //name of folders
   return (
     <div>
       <h1>News Archive</h1>
