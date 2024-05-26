@@ -16,6 +16,8 @@ npm install
 npm run dev
 ```
 
+## If use separate backend
+
 ```
 cd sec-4-routing-rendering/backend
 ```
