@@ -1,10 +1,10 @@
-import { DUMMY_NEWS } from "@/dummy-news";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-export default function NewsDetalePage({ params }) {
-  const newsSlug = params.slug;
+import { getNewsItem } from "@/lib/news";
 
-  const newsItem = DUMMY_NEWS.find((newsItem) => newsItem.slug === newsSlug);
+export default async function NewsDetalePage({ params }) {
+  const newsSlug = params.slug;
+  const newsItem = await getNewsItem(newsSlug);
 
   // to see custom notFound page in dynamic page
   if (!newsItem) {

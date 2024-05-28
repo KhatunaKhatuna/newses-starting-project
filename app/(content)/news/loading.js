@@ -1,3 +1,3 @@
-export default function Newsloading() {
+export default function NewsLoading() {
   return <p>Loading...</p>;
 }
