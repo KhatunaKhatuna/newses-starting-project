@@ -1,3 +1,4 @@
+// i dont use this dummy data
 export const DUMMY_NEWS = [
   {
     id: "n1",

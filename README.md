@@ -1,7 +1,7 @@
 # Set up the project
 
 ```
-git clone git@github.com:KhatunaKhatuna/Sec-4-routing-rendering.git
+git clone git@github.com:KhatunaKhatuna/newses-starting-project.git
 ```
 
 ```
