@@ -5,7 +5,7 @@ git clone git@github.com:KhatunaKhatuna/newses-starting-project.git
 ```
 
 ```
-cd sec-4-routing-rendering
+cd newses-starting-project
 ```
 
 ```
@@ -19,7 +19,7 @@ npm run dev
 ## If use separate backend
 
 ```
-cd sec-4-routing-rendering/backend
+cd newses-starting-project
 ```
 
 ```
